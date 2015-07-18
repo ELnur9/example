@@ -3,7 +3,7 @@
     $news = get_news();
     ?>
 
-                <div class="nov">Новости</div>
+                <div class="nov">Новости 1</div>
                 <div class="blue"></div>
                 <?php foreach($news as $item): ?>
                     <div class="otchet">
