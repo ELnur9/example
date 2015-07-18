@@ -8,7 +8,7 @@ $juri = get_juri();
 <div class="rules">
     <div class="container">
         <div class="content">
-            <div class="nov">Жюри</div>
+            <div class="nov">Жюри1</div>
             <div class="blue"></div>
             <div class="experts">
                 <?php foreach($juri as $item): ?>
