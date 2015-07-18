@@ -1,0 +1,769 @@
+body{
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: #ecf4e7;
+    border-bottom: 1px solid #acd3aa;
+    box-shadow: 0 1px 0 #ddeadd;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.timer {
+    float: left;
+    margin: 0 0 0 165px;
+}
+
+.timer .text {
+    float: left;
+    margin: 20px 0 0 0;
+
+
+}
+.uch{
+    float:right;
+    width:181px;
+    height: 50px;
+    background:#32982b;
+    border-bottom: 2px solid #21631c;
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px 0 20px;
+    text-shadow:0 1px 0 #21631c ;
+}
+.mymeny{
+    float:left;
+    width:100%;
+    margin:20px 0 0 0;
+
+
+}
+.logotype{
+    float:left;
+    width:86px;
+    height:70px;
+
+}
+.menu{
+    float:left;
+    margin:10px 0 0 65px;
+    width:560px;
+}
+.menu a{
+    color: black;
+    margin:0 15px 10px 0;
+    float: left;
+}
+.vhod{
+    float:left;
+    margin:10px 0 0 5px;
+    height:39px;
+    width:130px;
+}
+.vhod img{
+    margin:0 8px 0 0;
+    padding:0 0 10px 0;
+    float:left;
+
+}
+.vhod a{
+    color:black;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ced9e4;
+    padding: 20px 0 0 0;
+    background: #e6e6e6 url("img/footer.png") repeat-x left top;
+    margin:50px 0 0 0;
+}
+.now{
+    margin-right: -15px;
+    margin-left: -15px;
+    width:700px;
+
+}
+.partners{
+    overflow: hidden;
+    padding: 0 1px 5px 15px;
+}
+.text{
+    float: left;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+
+}
+.polos{
+    float:left;
+    width:220px;
+    height:6px;
+    background:#437ab2;
+    clear:left;
+
+
+
+
+}
+.logos {
+    float: left;
+    width:700px;
+    padding: 30px 0 0 0;
+    background: #fff;
+    height: 74px;
+    box-shadow: 0 1px 1px rgba(153, 153, 153, 0.5);
+
+}
+
+
+.text a {
+    font-size:14px;
+    color:#000000;
+    margin:0 0 0 25px;
+
+}
+.strel{
+    width:15px;
+    height:25px;
+    float:left;
+    margin:10px 0 0 18px;
+    background:url("img/strel.png") repeat-x left top;
+}
+.trio{
+    float:left;
+    width:135;
+    height:58px;
+    background:url("img/trio.png") no-repeat;
+    margin:0 0 0 39px;
+}
+.media{
+    float:left;
+    width:203px;
+    height:65px;
+    background:url("img/media.png") no-repeat;
+    margin:0 0 0 67px;
+}
+.tumar{
+    float:left;
+    width:93px;
+    height:48px;
+    background:url("img/tumar.png") no-repeat;
+    margin:10px 0 0 60px;
+}
+.strel2{
+    float:right;
+    width:15px;
+    height:25px;
+    background:url("img/strel2.png") no-repeat;
+    margin:10px 18px 0 0;
+}
+
+
+.fac{
+    float:right;
+    width:137px;
+}
+.fotchmep{
+    float:left;
+    margin:10px 50px 0 0;
+
+}
+.facebook{
+    float:left;
+    width:25px;
+    height:25px;
+    background:url("img/facebook.png") no-repeat;
+    margin:45px 0 0 0;
+}
+.design{
+    float:left;
+    width:73px;
+    height:26px;
+    background:url("img/design.png") no-repeat;
+    margin:45px 0 0 10px;
+}
+.rules{
+    float: left;
+    width: 100%;
+}
+.cow{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.content{
+    padding-right: 0;
+}
+.nov{
+    float: left;
+    padding: 0 100px 10px 0;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 40px 0 0 15px;
+}
+.blue{
+    float: left;
+    clear: left;
+    width: 200px;
+    height: 5px;
+    background: #437ab2;
+    margin:0 0 0 14px;
+}
+.colendar-aprel{
+    float:left;
+    width:630px;
+    clear:left;
+    margin:30px 0 0 15px;
+}
+.textx{
+    float: left;
+    font-size: 18px;
+    margin:0 0 0 157px;
+}
+.dni-nedeli{
+    float:left;
+    width:100%;
+    margin:10px 0 0 0;
+}
+.dni{
+    float: left;
+    width: 35px;
+    margin: 0 10px 0 0;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.kvadrat{
+    float:left;
+    width:35px;
+    height:35px;
+    background:#d9d9d9;
+    margin:0 10px 10px 0;
+    font-size:18px;
+    color:#ffffff;
+    text-align: center;
+    vertical-align:middle;
+    line-height:35px;
+}
+
+.kvadrat.otborochnui{
+    background:#deb077;
+}
+.kvadrat.otb{
+    background:#f19116;
+}
+.kvadrat.otbor{
+    background:#a0a51b;
+}
+.kvadrat.w{
+    background:#a0a51b;
+}
+.kvadrat.e{
+    background:#32982b;
+}
+.kvadrat.r{
+    background:#3c9a7b;
+}
+.kvadrat.t{
+    background:#437ab2;
+}
+.otborochnuitur{
+    float: left;
+    width: 630px;
+    margin:25px 0 0 14px;
+}
+.ott{
+    float: left;
+    width: 315px;
+    margin: 0 0 25px 0;
+}
+.tt{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.tte{
+    margin:0 0 0 45px;
+}
+.pdf{
+    float:left;
+    width:20%;
+    margin:170px 0 0 0;
+}
+.pdfkar{
+    float:left;
+
+}
+.pdfkar img{
+    float:left;
+    margin: 0 20px 0 0;
+}
+.calendar{
+    float:left;
+    width:80%;
+
+}
+.skachat{
+    margin:5px 0 0 0;
+}
+.skachat a{
+    color:#000000;
+    font-size:14px;
+}
+.skachat span{
+    color:#999999;
+    font-size:14px;
+    margin:5px 0 0 45px;
+}
+.experts{
+    float:left;
+    width:100%;
+}
+.juri{
+    float:left;
+    width:50%;
+    margin:30px 0 0 0;
+}
+.juri.odd {
+    clear: left;
+}
+.fotki{
+    float: left;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 130px;
+    border: solid 3px #437ab2;
+    margin:0 0 0 15px;
+}
+.textj{
+    padding:15px 0 0 170px;
+    margin:0 0 5px 10px;
+}
+.imya{
+    font-size:18px;
+}
+.ssylka{
+    margin:5px 0 0 0;
+}
+.ssylka a{
+    color: #999999;
+}
+.texto{
+    margin:10px 0 0 0;
+
+}
+
+.pop-up-form {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(67, 122, 178, 0.8);
+    display: none;
+}
+
+.pop-up-form .window {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    margin: 100px auto;
+}
+.close{
+    color:red;
+}body{
+     margin: 0;
+     font-family: Tahoma, sans-serif;
+     font-size: 14px;
+ }
+
+.header {
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: #ecf4e7;
+    border-bottom: 1px solid #acd3aa;
+    box-shadow: 0 1px 0 #ddeadd;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.timer {
+    float: left;
+    margin: 0 0 0 165px;
+}
+
+.timer .text {
+    float: left;
+    margin: 20px 0 0 0;
+
+
+}
+.uch{
+    float:right;
+    width:181px;
+    height: 50px;
+    background:#32982b;
+    border-bottom: 2px solid #21631c;
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px 0 20px;
+    text-shadow:0 1px 0 #21631c ;
+}
+.mymeny{
+    float:left;
+    width:100%;
+    margin:20px 0 0 0;
+
+
+}
+.logotype{
+    float:left;
+    width:86px;
+    height:70px;
+
+}
+.menu{
+    float:left;
+    margin:10px 0 0 65px;
+    width:560px;
+}
+.menu a{
+    color: black;
+    margin:0 15px 10px 0;
+    float: left;
+}
+.vhod{
+    float:left;
+    margin:10px 0 0 5px;
+    height:39px;
+    width:130px;
+}
+.vhod img{
+    margin:0 8px 0 0;
+    padding:0 0 10px 0;
+    float:left;
+
+}
+.vhod a{
+    color:black;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ced9e4;
+    padding: 20px 0 0 0;
+    background: #e6e6e6 url("img/footer.png") repeat-x left top;
+    margin:50px 0 0 0;
+}
+.now{
+    margin-right: -15px;
+    margin-left: -15px;
+    width:700px;
+
+}
+.partners{
+    overflow: hidden;
+    padding: 0 1px 5px 15px;
+}
+.text{
+    float: left;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+
+}
+.polos{
+    float:left;
+    width:220px;
+    height:6px;
+    background:#437ab2;
+    clear:left;
+
+
+
+
+}
+.logos {
+    float: left;
+    width:700px;
+    padding: 30px 0 0 0;
+    background: #fff;
+    height: 74px;
+    box-shadow: 0 1px 1px rgba(153, 153, 153, 0.5);
+
+}
+
+
+.text a {
+    font-size:14px;
+    color:#000000;
+    margin:0 0 0 25px;
+
+}
+.strel{
+    width:15px;
+    height:25px;
+    float:left;
+    margin:10px 0 0 18px;
+    background:url("img/strel.png") repeat-x left top;
+}
+.trio{
+    float:left;
+    width:135;
+    height:58px;
+    background:url("img/trio.png") no-repeat;
+    margin:0 0 0 39px;
+}
+.media{
+    float:left;
+    width:203px;
+    height:65px;
+    background:url("img/media.png") no-repeat;
+    margin:0 0 0 67px;
+}
+.tumar{
+    float:left;
+    width:93px;
+    height:48px;
+    background:url("img/tumar.png") no-repeat;
+    margin:10px 0 0 60px;
+}
+.strel2{
+    float:right;
+    width:15px;
+    height:25px;
+    background:url("img/strel2.png") no-repeat;
+    margin:10px 18px 0 0;
+}
+
+
+.fac{
+    float:right;
+    width:137px;
+}
+.fotchmep{
+    float:left;
+    margin:10px 50px 0 0;
+
+}
+.facebook{
+    float:left;
+    width:25px;
+    height:25px;
+    background:url("img/facebook.png") no-repeat;
+    margin:45px 0 0 0;
+}
+.design{
+    float:left;
+    width:73px;
+    height:26px;
+    background:url("img/design.png") no-repeat;
+    margin:45px 0 0 10px;
+}
+.rules{
+    float: left;
+    width: 100%;
+}
+.cow{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.content{
+    padding-right: 0;
+}
+.nov{
+    float: left;
+    padding: 0 100px 10px 0;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 40px 0 0 15px;
+}
+.blue{
+    float: left;
+    clear: left;
+    width: 200px;
+    height: 5px;
+    background: #437ab2;
+    margin:0 0 0 14px;
+}
+.colendar-aprel{
+    float:left;
+    width:630px;
+    clear:left;
+    margin:30px 0 0 15px;
+}
+.textx{
+    float: left;
+    font-size: 18px;
+    margin:0 0 0 157px;
+}
+.dni-nedeli{
+    float:left;
+    width:100%;
+    margin:10px 0 0 0;
+}
+.dni{
+    float: left;
+    width: 35px;
+    margin: 0 10px 0 0;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+.kvadrat{
+    float:left;
+    width:35px;
+    height:35px;
+    background:#d9d9d9;
+    margin:0 10px 10px 0;
+    font-size:18px;
+    color:#ffffff;
+    text-align: center;
+    vertical-align:middle;
+    line-height:35px;
+}
+
+.kvadrat.otborochnui{
+    background:#deb077;
+}
+.kvadrat.otb{
+    background:#f19116;
+}
+.kvadrat.otbor{
+    background:#a0a51b;
+}
+.kvadrat.w{
+    background:#a0a51b;
+}
+.kvadrat.e{
+    background:#32982b;
+}
+.kvadrat.r{
+    background:#3c9a7b;
+}
+.kvadrat.t{
+    background:#437ab2;
+}
+.otborochnuitur{
+    float: left;
+    width: 630px;
+    margin:25px 0 0 14px;
+}
+.ott{
+    float: left;
+    width: 315px;
+    margin: 0 0 25px 0;
+}
+.tt{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.tte{
+    margin:0 0 0 45px;
+}
+.pdf{
+    float:left;
+    width:20%;
+    margin:170px 0 0 0;
+}
+.pdfkar{
+    float:left;
+
+}
+.pdfkar img{
+    float:left;
+    margin: 0 20px 0 0;
+}
+.calendar{
+    float:left;
+    width:80%;
+
+}
+.skachat{
+    margin:5px 0 0 0;
+}
+.skachat a{
+    color:#000000;
+    font-size:14px;
+}
+.skachat span{
+    color:#999999;
+    font-size:14px;
+    margin:5px 0 0 45px;
+}
+.experts{
+    float:left;
+    width:100%;
+}
+.juri{
+    float:left;
+    width:50%;
+    margin:30px 0 0 0;
+}
+.juri.odd {
+    clear: left;
+}
+.fotki{
+    float: left;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 130px;
+    border: solid 3px #437ab2;
+    margin:0 0 0 15px;
+}
+.textj{
+    padding:15px 0 0 170px;
+    margin:0 0 5px 10px;
+}
+.imya{
+    font-size:18px;
+}
+.ssylka{
+    margin:5px 0 0 0;
+}
+.ssylka a{
+    color: #999999;
+}
+.texto{
+    margin:10px 0 0 0;
+
+}
+
+.pop-up-form {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(67, 122, 178, 0.8);
+    display: none;
+}
+
+.pop-up-form .window {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    margin: 100px auto;
+}
+.close{
+    color:red;
+}
