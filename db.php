@@ -16,6 +16,14 @@ function create_juri($name, $url, $descriphion) {
     }
 }
 
+function create_page($title, $link, $content,$is_active) {
+    $connect = mysql_connect('localhost', 'root', '');
+    mysql_select_db('example');
+    if (!mysql_query("INSERT INTO page (title,link,content,is_active) VALUES ('".$title."', '".$link."','".$content."','"$is_active"')",$connect)) {
+        echo 'Error: ', mysql_error($connect);
+    }
+}
+
 
 function get_news() {
     $connect = mysql_connect('localhost', 'root', '');
