@@ -70,3 +70,15 @@ function get_news_view($id) {
     mysql_close($connect);
     return $news;
 }
+
+function get_page_view($link) {
+    $connect = mysql_connect('localhost', 'root', '');
+    mysql_select_db('example');
+    $result = mysql_query("SELECT * FROM page where link='".$link."'", $connect);
+    $page = array();
+    While($row = mysql_fetch_assoc($result)) {
+        $page[] = $row;
+    }
+    mysql_close($connect);
+    return $page[0];
+}

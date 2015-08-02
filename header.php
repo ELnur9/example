@@ -32,7 +32,7 @@
         </a>
         <div class="menu">
             <a href="/?page=about">О турнире</a>
-            <a href="/?page=rules">Правила</a>
+            <a href="http://example/page-view.php?link=rules">Правила</a>
             <a href="#">Схема турнира</a>
             <a href="/?page=calendar">Календарь игр</a>
             <a href="/?page=juri">Жюри</a>
